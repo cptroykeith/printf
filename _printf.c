@@ -50,7 +50,7 @@ int _printf(const char *format, ...)
  * @args_list: The arguments list
  * @fmt_info: The format info parameters that were read
  */
-int main (void) write_format(va_list *args_list, fmt_info_t *fmt_info)
+void write_format(va_list *args_list, fmt_info_t *fmt_info)
 {
 	int i;
 	spec_printer_t spec_printers[] = {
